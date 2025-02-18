@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/aFakePool.sol": "FakePoolPrice"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/aFakePool.sol": {
+			"keccak256": "0xf87c498937ee25c778d7bb3d7ae30a2e0cdb6c269dc3a911f0d6e6cced821631",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://9ee2a5c9a64820c480cff6a887e99ba4cf3089c0e0f68ed31ab5f84ef881b238",
+				"dweb:/ipfs/QmdrNXL31xMETbq7Ws4GPKD1WyoL7hKFdYDQV8nJHxPTMZ"
+			]
+		}
+	},
+	"version": 1
+}

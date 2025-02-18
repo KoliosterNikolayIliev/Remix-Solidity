@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/test_mapping.sol": "SampleERC20Test"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/test_mapping.sol": {
+			"keccak256": "0x0d32ac51c18f18a2c20955f050953de58f625740a98a0ab78604a51f6d64f4b1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3fc73dc0515c6b4316f6fc3897e9788d9d7a57f310470c220f8b895eabc23418",
+				"dweb:/ipfs/QmNh3jbCaPERCW7Rq7rpD5kwrbSAmf7R1zGGMjWL7owV1p"
+			]
+		}
+	},
+	"version": 1
+}

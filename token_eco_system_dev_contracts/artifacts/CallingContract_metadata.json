@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "price",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_priceConsumerV3InterfaceAddress",
+						"type": "address"
+					}
+				],
+				"name": "add_price_feed",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAddressOfprice",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ptrn_eco_system_dev_contracts/fakePtrnEcosystemParticipationSmartContract.sol": "CallingContract"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ptrn_eco_system_dev_contracts/fakePtrnEcosystemParticipationSmartContract.sol": {
+			"keccak256": "0x20883b2f5a336ffe20e5b3bb2e133590c8d528ce092e1d3fb4ceedcbae6cb482",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7c2cebdd583336750b68b91575ab59b7473e87cd77e37f89af4041f9285d0903",
+				"dweb:/ipfs/QmbaYC1UfaAHXfAEFoPsmqbaKbYip1evRjFV7bRQWeRN2h"
+			]
+		}
+	},
+	"version": 1
+}

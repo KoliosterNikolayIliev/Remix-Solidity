@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "price",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_priceConsumerV3InterfaceAddress",
+						"type": "address"
+					}
+				],
+				"name": "add_price_feed",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAddressOfprice",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCurPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/autoBurningContractV_1_0.sol": "CallingContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/autoBurningContractV_1_0.sol": {
+			"keccak256": "0x01ce63accbc8a4c4b0cdfdaa7e58bc5a4f0f152f0208b3a38777ecf99bd9053f",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://a257ca6d0b6c0ffb9fbd3a84b6b6b56613234b088804dcd3167fc32fd13df3d7",
+				"dweb:/ipfs/QmVMCgHZoteati1rxeqaTUMV1LUL16jH7WNCuo1DVHyES2"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Token0rate",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_poolPriceConsumerInterfaceAddress",
+						"type": "address"
+					}
+				],
+				"name": "addPoolPriceFeed",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ptrn_eco_system_dev_contracts/poolPriceFeed.sol": "PicingFromPool"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ptrn_eco_system_dev_contracts/poolPriceFeed.sol": {
+			"keccak256": "0xb28b814a3348dba6b33c6343b0c1e179c352653d1ad30fffc06d26cc00facfc4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://499822c9bcc30d5a58cc724ef30ef93f0ecb81bcc7d47531fed5611aa3feb9a9",
+				"dweb:/ipfs/Qmdbe2UbPC81DkxVBXztvt1nZnHmRruzb7hoDUhFLTTN2e"
+			]
+		}
+	},
+	"version": 1
+}

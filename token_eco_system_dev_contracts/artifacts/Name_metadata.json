@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ptrn_eco_system_dev_contracts/testingFeatures.sol": "Name"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ptrn_eco_system_dev_contracts/testingFeatures.sol": {
+			"keccak256": "0xae531d75a2a8218d0a53b78c6d25a45d351392e6d6d04aca445e074d5a3dbef4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d1092262840344b2cf39496220308c940e1f802d6bb7beef4acaf3bb8e01b6cf",
+				"dweb:/ipfs/QmY3Rruv6jhh6de5Th3mbueGht3NQ82b3k9Tfn73VPGjN4"
+			]
+		}
+	},
+	"version": 1
+}

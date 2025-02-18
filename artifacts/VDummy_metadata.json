@@ -1,0 +1,429 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract DummyToken",
+						"name": "token_",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "beneficiary_",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "releaseDate",
+						"type": "uint256"
+					}
+				],
+				"name": "addBeneficiary",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "beneficiary_",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "releaseDate",
+						"type": "uint256"
+					}
+				],
+				"name": "addPaymentToBeneficiary",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "beneficiary_",
+						"type": "address"
+					}
+				],
+				"name": "beneficiary",
+				"outputs": [
+					{
+						"internalType": "uint256[3][]",
+						"name": "",
+						"type": "uint256[3][]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "beneficiary_",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "reason",
+						"type": "string"
+					}
+				],
+				"name": "cancelPaymentsToBeneficiary",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newBeneficiary",
+						"type": "address"
+					}
+				],
+				"name": "changeBeneficiaryWallet",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentNonUtilizedAmount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCanceledPaymentsAddresses",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "beneficiary_",
+						"type": "address"
+					}
+				],
+				"name": "getReasonForCancellation",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "beneficiary_",
+						"type": "address"
+					}
+				],
+				"name": "release",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "returnBeneficiaryList",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "symbol",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeNow",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract DummyToken",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalUnreleasedPayments",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "wallet",
+						"type": "address"
+					}
+				],
+				"name": "transferExcessBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				},
+				"transferOwnership(address)": {
+					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"addBeneficiary(address,uint256,uint256)": {
+					"notice": "Add beneficiary with initial tokens to be received."
+				},
+				"addPaymentToBeneficiary(address,uint256,uint256)": {
+					"notice": "Add additional payments to beneficiary."
+				},
+				"beneficiary(address)": {
+					"notice": "Returns array with all payments(released and not released) for given beneficiary that will receive the tokens."
+				},
+				"cancelPaymentsToBeneficiary(address,string)": {
+					"notice": "Removes all non released payments to a beneficiary. Only owner can call it in special circumstances."
+				},
+				"changeBeneficiaryWallet(address)": {
+					"notice": "Beneficiary can change wallet address for some reason. Can be done only by the beneficiary"
+				},
+				"constructor": {
+					"notice": "Deploys a time-lock instance that is able to hold the token specified, and will only release it to `beneficiary_` when {release} is invoked after `releaseTime_ (parameter at index 1 in  address => uint256[3][])`.  The release time is specified as a Unix timestamp (in seconds)."
+				},
+				"currentBalance()": {
+					"notice": "Returns all tokens held in contract."
+				},
+				"currentNonUtilizedAmount()": {
+					"notice": "Returns the difference between token balance and locked tokens if any."
+				},
+				"decimals()": {
+					"notice": "Returns the decimal of the token being held."
+				},
+				"getCanceledPaymentsAddresses()": {
+					"notice": "Returns array with addresses of beneficiaries with canceled payments."
+				},
+				"getReasonForCancellation(address)": {
+					"notice": "Returns reason for cancellation of payments of beneficiary."
+				},
+				"release(address)": {
+					"notice": "Checks if there are released payments for a beneficiary and any transfers the tokens to the beneficiary. Can be called by Owner of the contract or the beneficiary."
+				},
+				"renounceOwnership()": {
+					"notice": "Renounce ownership not possible with this smart contract."
+				},
+				"returnBeneficiaryList()": {
+					"notice": "Returns all beneficiary addresses included in the dummy contract."
+				},
+				"symbol()": {
+					"notice": "Returns the symbol of the token being held."
+				},
+				"token()": {
+					"notice": "Returns the token being held."
+				},
+				"totalUnreleasedPayments()": {
+					"notice": "Returns the sum of all locked tokens."
+				},
+				"transferExcessBalance(address)": {
+					"notice": "Owner can transfer excess balance(after canceling of payments) to address of his choice."
+				}
+			},
+			"notice": "A token holder contract that will allow a beneficiary to extract the tokens after a given release time. on predefined tim schedule\".",
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"dummy_distro_flat.sol": "VDummy"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"dummy_distro_flat.sol": {
+			"keccak256": "0x44dad19d97d11e9ee2c484ee3818a92b769e0b2cf778c6223fd1a2c5cf05a320",
+			"urls": [
+				"bzz-raw://c2841ed5b9f45bec15d35ba14e615f633b9bfa3e3d381f1cbd06c0635e2ec383",
+				"dweb:/ipfs/QmQPERS4rwTwJtiYeyx3fW73hEody35VAoSw43cFvYQxZk"
+			]
+		}
+	},
+	"version": 1
+}

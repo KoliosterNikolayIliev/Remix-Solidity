@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Collection of functions related to the address type",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"token_eco_system_dev_contracts/contracts_ready_for_prod/TokenEcoSystemFactoryV1_0_flattened.sol": "Address"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"token_eco_system_dev_contracts/contracts_ready_for_prod/TokenEcoSystemFactoryV1_0_flattened.sol": {
+			"keccak256": "0x2df8c34db8005209761a31988a03a8bc89631b90f9061eeff8aeb69a85296d2a",
+			"urls": [
+				"bzz-raw://77c4a560f3d6b960514fddcb1c5fc95f1f906139c3c07a11bcfba5fc1c38c68b",
+				"dweb:/ipfs/QmYEfbhf5jHgGjzPfvViP8bZupBtVikv5xHgNWG5nweD9o"
+			]
+		}
+	},
+	"version": 1
+}

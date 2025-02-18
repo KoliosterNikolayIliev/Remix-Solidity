@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getLatestPriceOfUSDT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ptrn_eco_system_dev_contracts/fakePtrnEcosystemParticipationSmartContract.sol": "PoolPriceConsumerInterface"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ptrn_eco_system_dev_contracts/fakePtrnEcosystemParticipationSmartContract.sol": {
+			"keccak256": "0x8e0b96e411b57cdce071fb18e23484dffb927a0fd6b6d7d7cf631f23d700c017",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3c0f4f17eeeb7df0011563e23077de2acbcab46607c29dc8ec13523bc4e457c1",
+				"dweb:/ipfs/QmRDTjMthdCN7t2jFHNZ4MxSrGWMwwdrSPCmN5SHPVdT4c"
+			]
+		}
+	},
+	"version": 1
+}

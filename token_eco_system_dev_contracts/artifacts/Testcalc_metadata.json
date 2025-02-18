@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ptrn_eco_system_dev_contracts/testingFeatures.sol": "Testcalc"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ptrn_eco_system_dev_contracts/testingFeatures.sol": {
+			"keccak256": "0x2ac8329b13df0842653ccc4a346f621f93bbedfce2c17683798ca0c376f8e3a6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5c9241d0d68fa28f3ac8dc5f066fadafc5cd921a9546c779a1422e232b7ec29f",
+				"dweb:/ipfs/QmNTBJr2xS4rRrf8NLVQbUshKup9nQ8CgxSSaZjQ9B4ehD"
+			]
+		}
+	},
+	"version": 1
+}

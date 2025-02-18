@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"token_eco_system_dev_contracts/contracts_ready_for_prod/PoolRateFeed.sol": "DecimalsInterface"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"token_eco_system_dev_contracts/contracts_ready_for_prod/PoolRateFeed.sol": {
+			"keccak256": "0x30b08a2887994911f29ba7272ef8fb9aa6c813bfb7b7a63c51ea051aefddedf6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://535f11a02a579b93790139d9a4f2faddf6ea9918c309e6a7eb8a5c5a7c1ffc0b",
+				"dweb:/ipfs/QmeyLdTCzAbuq8418Bvoq38s7xcPrFwQzLZQaHqgn7H79E"
+			]
+		}
+	},
+	"version": 1
+}

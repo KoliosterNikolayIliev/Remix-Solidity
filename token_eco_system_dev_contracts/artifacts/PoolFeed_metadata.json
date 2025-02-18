@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.23+commit.f704f362"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ptrn_eco_system_dev_contracts/testingFeatures.sol": "PoolFeed"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ptrn_eco_system_dev_contracts/testingFeatures.sol": {
+			"keccak256": "0xc13a6dd65e364da822a78c30f3c65fb7d78e53a4e53bd51cd9c216329f9a2995",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5bbb5ea9a3e7ec9385b9037a0c52ae563e87727e34d304848f75fa0ddbbc9bea",
+				"dweb:/ipfs/QmRpunqbKPoVMaJCDn9FegceLpfa4HnzuHoDSA6Uf6WPNU"
+			]
+		}
+	},
+	"version": 1
+}

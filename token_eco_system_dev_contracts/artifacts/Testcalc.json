@@ -1,0 +1,60 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "608060405269098774738bc8222000005f806101000a8154816dffffffffffffffffffffffffffff02191690836dffffffffffffffffffffffffffff16021790555060125f600e6101000a81548160ff021916908360ff16021790555064012a05f2005f600f6101000a8154816dffffffffffffffffffffffffffff02191690836dffffffffffffffffffffffffffff16021790555060065f601d6101000a81548160ff021916908360ff16021790555034801560ba575f80fd5b50603e806100c75f395ff3fe60806040525f80fdfea26469706673582212200cd67137c10813b21cac46400e14598a5b23fb0e6f34be210feed76ed2027d6e64736f6c63430008170033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH10 0x98774738BC822200000 PUSH0 DUP1 PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH14 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH14 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP PUSH1 0x12 PUSH0 PUSH1 0xE PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 PUSH1 0xFF AND MUL OR SWAP1 SSTORE POP PUSH5 0x12A05F200 PUSH0 PUSH1 0xF PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH14 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFF MUL NOT AND SWAP1 DUP4 PUSH14 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFF AND MUL OR SWAP1 SSTORE POP PUSH1 0x6 PUSH0 PUSH1 0x1D PUSH2 0x100 EXP DUP2 SLOAD DUP2 PUSH1 0xFF MUL NOT AND SWAP1 DUP4 PUSH1 0xFF AND MUL OR SWAP1 SSTORE POP CALLVALUE DUP1 ISZERO PUSH1 0xBA JUMPI PUSH0 DUP1 REVERT JUMPDEST POP PUSH1 0x3E DUP1 PUSH2 0xC7 PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC 0xD6 PUSH18 0x37C10813B21CAC46400E14598A5B23FB0E6F CALLVALUE 0xBE 0x21 0xF 0xEE 0xD7 PUSH15 0xD2027D6E64736F6C63430008170033 ",
+			"sourceMap": "59:196:0:-:0;;;97:12;82:27;;;;;;;;;;;;;;;;;;;;133:2;115:20;;;;;;;;;;;;;;;;;;;;156:10;141:25;;;;;;;;;;;;;;;;;;;;189:1;172:18;;;;;;;;;;;;;;;;;;;;59:196;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "60806040525f80fdfea26469706673582212200cd67137c10813b21cac46400e14598a5b23fb0e6f34be210feed76ed2027d6e64736f6c63430008170033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xC 0xD6 PUSH18 0x37C10813B21CAC46400E14598A5B23FB0E6F CALLVALUE 0xBE 0x21 0xF 0xEE 0xD7 PUSH15 0xD2027D6E64736F6C63430008170033 ",
+			"sourceMap": "59:196:0:-:0;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12400",
+				"executionCost": "97278",
+				"totalCost": "109678"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": []
+}

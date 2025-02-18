@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"token_eco_system_dev_contracts/fakePool.sol": "UQ112x112"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"token_eco_system_dev_contracts/fakePool.sol": {
+			"keccak256": "0xbb6915eb3d488b598c2ad1fd6d5aceafed56ec593bb33bde465ac4925efc079f",
+			"urls": [
+				"bzz-raw://74a67125e10b84983cef39bb08590daf55c7d280cd1fb44f311fb6915542d263",
+				"dweb:/ipfs/Qmaaoe9ZMn56PhbPuPnQQ8g1N7AQXJHV2im8XQ7qmYJvEo"
+			]
+		}
+	},
+	"version": 1
+}

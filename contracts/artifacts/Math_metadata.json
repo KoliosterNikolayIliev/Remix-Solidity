@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.16+commit.9c3226ce"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/quickSwap_pair.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": true,
+			"runs": 999999
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/quickSwap_pair.sol": {
+			"keccak256": "0x5c6afdfd8abab900bc377f79487bede4b0cca496d637f7f0af52b5ce9d95c617",
+			"urls": [
+				"bzz-raw://be5989614c14cd6e48f170f996958a6504744ca63c4e54ab152617f78261dd35",
+				"dweb:/ipfs/QmSdR3xxteiW1LfLcDZBxSe7UWWv9o6442BT8rU2mtem1w"
+			]
+		}
+	},
+	"version": 1
+}
